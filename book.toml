@@ -1,0 +1,6 @@
+[book]
+authors = ["jedeop"]
+language = "ko"
+multilingual = false
+src = "src"
+title = "깃털 문서"
