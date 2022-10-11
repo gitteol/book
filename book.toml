@@ -4,3 +4,7 @@ language = "ko"
 multilingual = false
 src = "src"
 title = "깃털 문서"
+
+[output.html]
+additional-css = ["css/fonts.css"]
+copy-fonts = false
