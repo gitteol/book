@@ -130,7 +130,7 @@ use super::{BlockVec, parse_param};
 
 impl MoveX {
     pub(crate) fn build(block: &dotent::project::script::Block) -> BlockVec {
-        let blocks = Vec::new(); // 블록 벡터 생성
+        let mut blocks = Vec::new(); // 블록 벡터 생성
 
         let (amount, mut param_blocks) = parse_param(&block.params[0]).unwrap(); // 0번째 인자 가져오기
         blocks.append(&mut param_blocks); // 인자를 구성하고 있는 블록들을 블록 벡터에 추가
